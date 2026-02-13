@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dhanushi Pemarathna | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="logo">Dhanushi.</div>
+
+  <!-- Hamburger -->
+  <div class="menu-toggle" id="menuToggle">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <nav id="navMenu">
+    <a href="#hero">Home</a>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+
+<!-- HERO -->
+<section id="hero" class="hero">
+  <div class="hero-left">
+    <h1>Hi, I'm <br><span>Dhanushi Pemarathna</span></h1>
+    <p class="typing"></p>
+    <a href="#projects" class="btn">View Projects</a>
+    <a href="resume/Dhanushi Pemarathna.pdf" target="_blank" class="btn outline-btn">View Resume</a>
+  </div>
+
+  <div class="hero-right">
+    <img src="images/profile.jpg" alt="Profile">
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about reveal">
+  <div class="about-card about-enhanced">
+    <h2>About Me</h2>
+
+    <p class="about-main">
+      I am <strong>Dhanushi Pemarathna</strong>, a Data Science undergraduate with a
+      strong passion for data analytics, machine learning, and Wordpress development.
+    </p>
+
+    <p class="about-sub">
+      I enjoy transforming raw data into meaningful insights, building predictive
+      models, developing interactive dashboards, and creating user-friendly web
+      solutions using modern technologies.
+    </p>
+
+    <div class="about-highlights">
+      <span>📊 Data Analysis</span>
+      <span>🤖 Machine Learning</span>
+      <span>📈 Power BI</span>
+      <span>🌐 WordPress Development</span>
+    </div>
+  </div>
+</section>
+
+
+<!-- EDUCATION -->
+<section id="education" class="card-section reveal">
+  <div class="section-card edu-enhanced">
+    <h2>Education</h2>
+
+    <div class="edu-timeline">
+
+      <div class="edu-item">
+        <span class="edu-dot"></span>
+        <div class="edu-content">
+          <h3>B.A (Hons) in Information Technology (Data Science)</h3>
+          <p>University of Sri Jayewardenepura</p>
+          <p class="time">2022 – Present</p>
+          <p class="highlight">Current GPA: 3.42</p>
+        </div>
+      </div>
+
+      <div class="edu-item">
+        <span class="edu-dot"></span>
+        <div class="edu-content">
+          <h3>G.C.E Advanced Level (A/L)</h3>
+          <p>Physical Science Stream – 2020</p>
+          <p>Results: 3 As | Z-score: 1.9517</p>
+          <p class="highlight">District Rank: 21 (Kegalle)</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- EXPERIENCE -->
+<section id="experience" class="card-section reveal">
+  <div class="section-card exp-enhanced">
+    <h2>Work Experience</h2>
+
+    <div class="exp-item">
+      <div class="exp-header">
+        <h3>Data Analyst (Intern)</h3>
+        <span class="time">Aug 2025 – Present</span>
+      </div>
+      <p class="company">
+        Ministry of Finance – Department of Management Services, Colombo
+      </p>
+      <ul>
+        <li>Cleaned, validated, and structured datasets for reporting and analysis.</li>
+        <li>Conducted province-wise cadre analysis for the national cadre review.</li>
+        <li>Ensured high accuracy, consistency, and confidentiality of data.</li>
+      </ul>
+    </div>
+
+    <div class="exp-item">
+      <div class="exp-header">
+        <h3>Survey Enumerator (Part-time)</h3>
+        <span class="time">Mar 2025 – Apr 2025</span>
+      </div>
+      <p class="company">
+        Institute for Participatory Interaction in Development (IPID) – BIA Katunayake
+      </p>
+      <ul>
+        <li>Collected accurate passenger entry and exit survey data.</li>
+        <li>Communicated professionally with international and local travelers.</li>
+        <li>Maintained completeness and confidentiality of collected information.</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- PROJECTS -->
+<section id="projects" class="projects reveal">
+  <h2>Projects</h2>
+
+  <div class="filter-buttons">
+    <button class="active" data-filter="all">All</button>
+    <button data-filter="research">Research</button>
+    <button data-filter="ml">Machine Learning</button>
+    <button data-filter="powerbi">Power BI</button>
+    <button data-filter="wp">WordPress</button>
+    <button data-filter="mobile">Mobile</button>
+  </div>
+
+  <div class="project-grid">
+
+    <div class="project-card powerbi">
+      <img src="images/adidas.png" alt="Adidas">
+      <h4>Adidas US Sales Dashboard</h4>
+      <a href="projects/adidas.html" class="project-btn">View Project</a>
+    </div>
+
+    <div class="project-card powerbi">
+      <img src="images/callcenter.png" alt="Call Center">
+      <h4>Call Center Performance Dashboard</h4>
+      <a href="projects/call-center.html" class="project-btn">View Project</a>
+    </div>
+
+    <div class="project-card powerbi">
+      <img src="images/customcurn.png" alt="Custom Curn">
+      <h4>Custom Curn Analysis Dashboard</h4>
+      <a href="projects/custom-curn.html" class="project-btn">View Project</a>
+    </div>
+
+    <div class="project-card research">
+      <img src="images/tea.png" alt="Tea Leaf">
+      <h4>Tea Leaf Disease Detection</h4>
+      <a href="projects/tea-leaf.html" class="project-btn">View Project</a>
+    </div>
+    
+    <div class="project-card ml">
+      <img src="images/face-ml.png" alt="Face Recognition">
+      <h4>Entrepreneur Face Recognition (Traditional ML)</h4>
+      <a href="https://github.com/Dhanushi-Pemarathna/Entrepreneur_Face_Detection" target="_blank" class="project-btn">View Project</a>
+    </div>
+
+    <div class="project-card ml">
+      <img src="images/stock-prediction.png" alt="Stock Prediction">
+      <h4>Real-Time Stock Price Prediction App</h4>
+      <a href="https://github.com/Dhanushi-Pemarathna/Real-Time_stock-price-prediction-Deep-learning" target="_blank" class="project-btn">View Project</a>
+    </div>
+
+    <div class="project-card ml">
+      <img src="images/diabetes-ml.png" alt="Diabetes Prediction">
+      <h4>Diabetes Prediction System - Used online available dataset</h4>
+      <a href="https://github.com/Dhanushi-Pemarathna/Diabetes-prediction---Machine-Learning" target="_blank" class="project-btn">View Project</a>
+    </div>
+
+    <div class="project-card wp">
+      <img src="images/growglow.png" alt="GrowGlow">
+      <h4>GrowGlow E-commerce Website - Wordpress- Plant Selling</h4>
+      <a href="projects/growglow.html" class="project-btn">View Project</a>
+    </div>
+
+    <div class="project-card mobile">
+      <img src="images/breathe5.png" alt="Breathe5">
+      <h4>Breathe5 Meditation App</h4>
+      <a href="projects/breathe5.html" class="project-btn">View Project</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact reveal">
+  <div class="contact-card">
+    <h2>Contact</h2>
+
+    <div class="contact-links">
+      <a href="https://wa.me/94763470135" target="_blank">📞 WhatsApp: 076 347 0135</a>
+      <a href="https://www.linkedin.com/in/dhanushi-pemarathna" target="_blank">🔗 LinkedIn</a>
+      <a href="https://github.com/Dhanushi-Pemarathna" target="_blank">💻 GitHub</a>
+    </div>
+  </div>
+</section>
+
+<footer>© 2025 Dhanushi Pemarathna</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
